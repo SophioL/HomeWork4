@@ -1,18 +1,36 @@
+*{
+    margin: 0;
+}
 .row{
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 15%;
 }
 .list-style{
     list-style: none;
-    
 }
 .nav-item{
-    front-size: 30px;
-    color:white
-
+    font-size: 20px;
+    font-style: unset;
+    color: rgb(242, 232, 232);
 }
 .header{
-    background-color: darkslategray;
-    padding: 20px;
+    padding: 3%;
+    background-color: rgb(182, 173, 174);
+}
+.banner-header{
+    color: rgb(224, 213, 213);
+    font-style: italic;
+    font-size: 70px;
+}
+.col-2{
+    width: 45%;
+}
+.space-between{
+    justify-content: space-between 5%;
+}
+.text-header{
+    color: rgb(97, 121, 97);
+    font-size: 15px;
+    font-style: initial;
 }
