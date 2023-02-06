@@ -1,36 +1,47 @@
 *{
     margin: 0;
 }
+#banner{
+    background-image: url(../imges/moeb.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.header{
+    padding: 5%;
+}
 .row{
     display: flex;
     justify-content: center;
-    gap: 15%;
+    gap: 10%;
 }
 .list-style{
     list-style: none;
-}
-.nav-item{
+    color: bisque;
     font-size: 20px;
-    font-style: unset;
-    color: rgb(242, 232, 232);
-}
-.header{
-    padding: 3%;
-    background-color: rgb(182, 173, 174);
-}
-.banner-header{
-    color: rgb(224, 213, 213);
-    font-style: italic;
-    font-size: 70px;
 }
 .col-2{
-    width: 45%;
+    width: 100%;
+
+
 }
-.space-between{
-    justify-content: space-between 5%;
+.align-item{
+    align-items: center;
 }
-.text-header{
-    color: rgb(97, 121, 97);
-    font-size: 15px;
-    font-style: initial;
+.banner-header{
+    padding-top:  20%;
+    font-size: 80px;
+    font-style: italic;
+    color: bisque;
+}
+.banner-text{
+    padding-left: 20%;
+    font-size: 20px;
+    font-style: italic;
+    color: bisque;
+}
+.col-3{
+}
+.img_cont{
+    width: 50%;
 }
