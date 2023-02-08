@@ -5,50 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/style.css">
-    <title>Document</title>
+    <title>front-end DevelopmenT</title>
 </head>
 <body>
-    <header id="banner">
-        <div>
-        <nav class="header">
-            <ul class="row list-style">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>ContacT</li>
-            </ul>
-        </nav>
-    </div>
-    <div class="row">
-        <div class="col-2">
-            <img>
-        </div>
-        <div class="align-item col-2">
-            <h2 class="banner-header">Front-End DevelopmenT</h2>
-            <p class="banner-text">If you're already a front-end developer, well, pretend you're also wearing a pirate hat.</p>
-            <p class="banner-text">Ethan Marcotte</p>
-        </div>
-    </div>
-    
-    </header>
-    <section>
-        <div class="row">
-            <div class="col-3 row">
-                <div class="img_cont">
-                <img src="./src/imges/htm.jpg">
+    <div id="banner">
+        <header>
+                <nav class="header fixed">
+                    <ul class="row list-style">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about_us">About Us</a></li>
+                        <li><a href="#contact">ContacT</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section id="home">
+            <div class="row">
+                <div class="col-2">
+                    <img>
                 </div>
+                <div class="align-item col-2">
+                    <h2 class="banner-header">Front-End DevelopmenT</h2>
+                    <p class="banner-text">
+                        If you're already a front-end developer, well,<br>
+                        pretend you're also wearing a pirate hat.
+                    </p>
+                    <p class="banner-text">Ethan Marcotte</p>
             </div>
-            <div class="col-3 row">
-                <div class="img_cont">
-                <img src="./src/imges/css.jpg">
+        </section>
+        <section id="about_us">
+            <div class="row">
+            <div class="col-3 row">          
+                    <div class="img_cont">
+                        <img src="./src/imges/html.png">
+                    </div>
+                <table>
+                    <tr>
+                        <td>          
+                            <div class="row font">
+                                <p>
+                                HTML is the standard markup language for Web pages.
+                                With HTML you can create your own Website.
+                                HTML is easy to learn - You will enjoy it!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                    </div>
+                    <div class="col-3 row">
+                        <div class="img_cont">
+                            <img src="./src/imges/css.png">
+                        </div>
+                        <table>
+                            <tr>
+                                <td> 
+                                    <div class="row font">
+                                        <p>
+                                            CSS is the language we use to style an HTML document.
+                                            CSS describes how HTML elements should be displayed.
+                                            This tutorial will teach you CSS from basic to advanced.
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-3 row">
+                        <div class="img_cont">
+                            <img src="./src/imges/javascript.png">
+                        </div>
+                        <table>
+                            <tr>
+                                <td> 
+                                    <div class="row font">
+                                        <p>
+                                            JavaScript is the world's most popular programming language.
+                                            JavaScript is the programming language of the Web.
+                                            JavaScript is easy to learn.
+                                            This tutorial will teach you JavaScript from basic to advanced.
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <div class="row">
+                <form>
+                    <div class="row banner-header">
+                        ContacT us
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="textarea_cont">
+                        <textarea typ="text" placeholder="Please Do Not Hesitate to Contact Us"></textarea>
+                    </div>
+                    <div class="row">
+                        <button class="btn">ContacT us</button>
+                    </div>
+                </form>
             </div>
-            </div>
-            <div class="col-3 row">
-                <div class="img_cont">
-                <img src="./src/imges/javascr.jpg">
-            </div>
+        </section>
+        <footer>
+            <div>
+                <nav class="header">
+                    <ul class="row list-style">
+                        <li>Adress </li>
+                        <li>Phone Number</li>
+                    </ul>
+                    <ul class="row list-style">
+                        <li>Barnovi Nº5</li>
+                        <li>+995 599 599 599</li>
+                    </ul>
+                </nav>
+            <div>
+            <div class="row footer_cont">
+                <span class="copyright">© 2023</span>
+                <a href="https://github.com/" target="_blank">Sophio Latsuzbaia</a>
             </div>
         </div>
-    </section>
-    
+        </footer>
+    </div>
 </body>
 </html>
